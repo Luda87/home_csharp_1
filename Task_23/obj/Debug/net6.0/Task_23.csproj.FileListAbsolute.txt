@@ -1,0 +1,15 @@
+C:\home_csharp\Task_23\bin\Debug\net6.0\Task_23.exe
+C:\home_csharp\Task_23\bin\Debug\net6.0\Task_23.deps.json
+C:\home_csharp\Task_23\bin\Debug\net6.0\Task_23.runtimeconfig.json
+C:\home_csharp\Task_23\bin\Debug\net6.0\Task_23.dll
+C:\home_csharp\Task_23\bin\Debug\net6.0\Task_23.pdb
+C:\home_csharp\Task_23\obj\Debug\net6.0\Task_23.csproj.AssemblyReference.cache
+C:\home_csharp\Task_23\obj\Debug\net6.0\Task_23.GeneratedMSBuildEditorConfig.editorconfig
+C:\home_csharp\Task_23\obj\Debug\net6.0\Task_23.AssemblyInfoInputs.cache
+C:\home_csharp\Task_23\obj\Debug\net6.0\Task_23.AssemblyInfo.cs
+C:\home_csharp\Task_23\obj\Debug\net6.0\Task_23.csproj.CoreCompileInputs.cache
+C:\home_csharp\Task_23\obj\Debug\net6.0\Task_23.dll
+C:\home_csharp\Task_23\obj\Debug\net6.0\refint\Task_23.dll
+C:\home_csharp\Task_23\obj\Debug\net6.0\Task_23.pdb
+C:\home_csharp\Task_23\obj\Debug\net6.0\Task_23.genruntimeconfig.cache
+C:\home_csharp\Task_23\obj\Debug\net6.0\ref\Task_23.dll
