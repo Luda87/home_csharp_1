@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\home_csharp\\Task_8\\Task_8.csproj": {}
+    "C:\\home_csharp\\Task_25\\Task_25.csproj": {}
   },
   "projects": {
-    "C:\\home_csharp\\Task_8\\Task_8.csproj": {
+    "C:\\home_csharp\\Task_25\\Task_25.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\home_csharp\\Task_8\\Task_8.csproj",
-        "projectName": "Task_8",
-        "projectPath": "C:\\home_csharp\\Task_8\\Task_8.csproj",
+        "projectUniqueName": "C:\\home_csharp\\Task_25\\Task_25.csproj",
+        "projectName": "Task_25",
+        "projectPath": "C:\\home_csharp\\Task_25\\Task_25.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\home_csharp\\Task_8\\obj\\",
+        "outputPath": "C:\\home_csharp\\Task_25\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
