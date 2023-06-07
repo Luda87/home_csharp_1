@@ -1,0 +1,15 @@
+C:\home_csharp\Task_60_1\bin\Debug\net6.0\Task_60_1.exe
+C:\home_csharp\Task_60_1\bin\Debug\net6.0\Task_60_1.deps.json
+C:\home_csharp\Task_60_1\bin\Debug\net6.0\Task_60_1.runtimeconfig.json
+C:\home_csharp\Task_60_1\bin\Debug\net6.0\Task_60_1.dll
+C:\home_csharp\Task_60_1\bin\Debug\net6.0\Task_60_1.pdb
+C:\home_csharp\Task_60_1\obj\Debug\net6.0\Task_60_1.csproj.AssemblyReference.cache
+C:\home_csharp\Task_60_1\obj\Debug\net6.0\Task_60_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\home_csharp\Task_60_1\obj\Debug\net6.0\Task_60_1.AssemblyInfoInputs.cache
+C:\home_csharp\Task_60_1\obj\Debug\net6.0\Task_60_1.AssemblyInfo.cs
+C:\home_csharp\Task_60_1\obj\Debug\net6.0\Task_60_1.csproj.CoreCompileInputs.cache
+C:\home_csharp\Task_60_1\obj\Debug\net6.0\Task_60_1.dll
+C:\home_csharp\Task_60_1\obj\Debug\net6.0\refint\Task_60_1.dll
+C:\home_csharp\Task_60_1\obj\Debug\net6.0\Task_60_1.pdb
+C:\home_csharp\Task_60_1\obj\Debug\net6.0\Task_60_1.genruntimeconfig.cache
+C:\home_csharp\Task_60_1\obj\Debug\net6.0\ref\Task_60_1.dll
