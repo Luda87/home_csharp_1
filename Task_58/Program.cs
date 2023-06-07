@@ -10,19 +10,19 @@
 
 
 
-int [,] CreateRandomFirst2DMatrix(int firstrows,int firstcolumns)
+int [,] CreateRandomFirst2DMatrix(int firstRows,int firstColumn)
 {
-int[,] array = new int[firstrows, firstcolumns];
-for(int i = 0; i<firstrows; i++)
-for(int j =0; j < firstcolumns; j++)
+int[,] array = new int[firstRows, firstColumn];
+for(int i = 0; i<firstRows; i++)
+for(int j =0; j < firstColumn; j++)
 array[i,j] = new Random().Next(1,9);
 return array;
 }
-int [,] CreateRandomSecond2DMatrix(int secondrows,int secondcolumns)
+int [,] CreateRandomSecond2DMatrix(int secondRows,int secondColumn)
 {
-int[,] array = new int[secondrows, secondcolumns];
-for(int i = 0; i<secondrows; i++)
-for(int j =0; j < secondcolumns; j++)
+int[,] array = new int[secondRows, secondColumn];
+for(int i = 0; i<secondRows; i++)
+for(int j =0; j < secondColumn; j++)
 array[i,j] = new Random().Next(1,9);
 return array;
 }
@@ -36,21 +36,24 @@ Console.WriteLine();
 }
 Console.WriteLine();
 }
-Console.Write("Input qty of rows for first matrix: ");
-int firstrows = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input qty of columns for second matrix: " );
-int firstcolumns = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input qty of rows for second matrix: ");
-int secondrows = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input qty of columns for second matrix: " );
-int secondcolumns = Convert.ToInt32(Console.ReadLine());
-int[,] newFirstMatrix = CreateRandomFirst2DMatrix(firstrows,firstcolumns);
-int[,] newSecondMatrix = CreateRandomSecond2DMatrix(secondrows,secondcolumns);
+
+Console.Clear();
+Console.WriteLine("Введите количество строк первой матрицы");
+int firstRows = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите количество столбцов первой матрицы");
+int firstColumn = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите количество строк второй матрицы");
+int secondRows = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите количество столбцов второй матрицы");
+int secondColumn = Convert.ToInt32(Console.ReadLine());
+
+int[,] newFirstMatrix = CreateRandomFirst2DMatrix(firstRows,firstColumn);
+int[,] newSecondMatrix = CreateRandomSecond2DMatrix(secondRows,secondColumn);
 
 Show2DArray(newFirstMatrix);
 Show2DArray(newSecondMatrix);
 
-int[,] TwoMatrixMultiplication = new int[firstrows,secondcolumns];
+int[,] TwoMatrixMultiplication = new int[firstRows,secondColumn];
 if (newFirstMatrix.GetLength(0) != newSecondMatrix.GetLength(1))
 {
 Console.WriteLine(" Матрицы не одинакового размера,перемножить их невозможно ");
@@ -68,4 +71,3 @@ TwoMatrixMultiplication[i, j] += newFirstMatrix[i, k] * newSecondMatrix[k, j];
 }
 }
 Show2DArray(TwoMatrixMultiplication);
-
